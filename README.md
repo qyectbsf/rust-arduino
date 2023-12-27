@@ -33,6 +33,11 @@ cargo install cargo-generate
 cargo generate --git https://github.com/Rahix/avr-hal-template.git
 ```
 
+## how to run test
+
+cd into examples dir
+run cargo run --bin blink -- -P /dev/ttyUSBx
+
 ## License
 Licensed under either of
 
